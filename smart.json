@@ -1,11 +1,9 @@
 {
   "name": "stylus-mixin",
   "description": "Expressive, dynamic, robust CSS. (Replaces core stylus package, now works with mixins)",
-  "homepage": "https://github.com/charuru/stylus-mixin",
+  "homepage": "https://github.com/Charuru/stylus-mixin",
   "author": "Charles Ru <charuru2009@gmail.com>",
-  "version": "0.1.0",
-  "git": "https://github.com/charuru/stylus-mixin.git",
-  "packages": {
-    "deps-extensions" : {}
-  }
+  "version": "1.0.1",
+  "git": "https://github.com/Charuru/stylus-mixin.git",
+  "packages": {}
 }
