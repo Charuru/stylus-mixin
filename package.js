@@ -6,7 +6,7 @@ var stylus = require('stylus');
 var nib = require('nib');
 var fs = require('fs');
 
-Package.stylus = "" 
+Package.stylus = "@import nib\n" 
 
 Package.register_extension(
   'styl', function(bundle, source_path, serve_path, where) {
