@@ -2,9 +2,14 @@ Package.describe({
   summary: 'Expressive, dynamic, robust CSS. (Replaces core stylus package, now works with mixins.)'
 });
 
-var stylus = require('stylus');
-var nib = require('nib');
-var fs = require('fs');
+
+Npm.depends({nib: "0.9.1"});
+
+var stylus = Npm.require('stylus');
+var nib = Npm.require('nib');
+var fs = Npm.require('fs');
+
+
 
 Package.stylus = "@import nib\n" 
 
